@@ -16,6 +16,15 @@ body {
   background: var(--color-main);
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(40deg, #515660, #D8E2FA);
+  border-radius: 22px;
+}
+
 ul {
   list-style: none;
 }
