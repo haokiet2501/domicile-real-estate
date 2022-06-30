@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="sass/css/styles.css">
+    <title>Real Estate Website - Domicile</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Domicile</a>
+
+            <div class="nav__search">
+                <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_2_206)">
+                    <circle cx="12" cy="8" r="7" stroke="#D8E2FA" stroke-width="2"/>
+                    <path d="M22 18L17 13" stroke="#D8E2FA" stroke-width="2" stroke-linecap="round"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_2_206" x="0" y="0" width="27" height="27" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_206"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_206" result="shape"/>
+                    </filter>
+                    </defs>
+                </svg>
+                    
+                <input type="text" name="search" id="" placeholder="Search for properties...">
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#futured" class="nav__link">Properties</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#category" class="nav__link">Category</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Review</a>
+                    </li>
+                </ul>
+
+                <button class="nav__contact">Contact Us</button>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-list-settings-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__data-subtitle">
+                        Committed to Giving<br>the Best Places.
+                    </h1>
+                    <p class="home__data-title">
+                        Welcome to our real estate agency, the place to start your new comfortable life at! We provide our clients with a great selection of luxury, modern and unique house.
+                    </p>
+                </div>
+
+                <div class="home__images">
+                    <img src="imgs/hero-one.png" alt="">
+                    <img src="imgs/hero-two.png" alt="">
+                    <img src="imgs/hero-three.png" alt="">
+                    <img src="imgs/hero-four.png" alt="">
+                </div>
+
+                <div class="home__button">
+                    <a href="#" class="button">Explore Properties</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="futured" id="futured">
+            <div class="futured__container container">
+                <div class="futured__properties">
+                    <div class="futured__properties-content">
+                        Lastest Featured Properties
+                    </div>
+                    <div class="futured__properties-line"></div>
+                    <div class="futured__properties-button">View All</div>
+                </div>
+
+                <div class="futured__card">
+                    <img class="futured__card-img" src="imgs/future.png" alt="">
+                    <div class="futured__card-layouts">
+                        <div class="futured__card-text">
+                            <h3>Beautiful Living House.</h3>
+                            <p>Oshawa, ON, Canada</p>
+                        </div>
+                        <div class="futured__card-price">
+                            <p>$1,21000</p>
+                            <img class="futured__card-price-vector" src="imgs/rating.png" alt="">
+                        </div>
+
+                        <div class="futured__card-subtext">
+                            <p>
+                                This the best and beautiful place for living. You can't find another place like this.<br/> The place to start your new good comfortable life at! We provide...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="futured__card-btnfutured">
+                        <svg width="16" height="16" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 21L21 1M21 1H1M21 1V21" stroke="#0C1938" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="futured__card">
+                    <img class="futured__card-img" src="imgs/future2.png" alt="">
+                    <div class="futured__card-layouts">
+                        <div class="futured__card-text">
+                            <h3>Beautiful Living House.</h3>
+                            <p>Oshawa, ON, Canada</p>
+                        </div>
+                        <div class="futured__card-price">
+                            <p>$1,21000</p>
+                            <img class="futured__card-price-vector" src="imgs/rating.png" alt="">
+                        </div>
+
+                        <div class="futured__card-subtext">
+                            <p>
+                                This the best and beautiful place for living. You can't find another place like this.<br/> The place to start your new good comfortable life at! We provide...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="futured__card-btnfutured">
+                        <svg width="16" height="16" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 21L21 1M21 1H1M21 1V21" stroke="#0C1938" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="futured__card">
+                    <img class="futured__card-img" src="imgs/future3.png" alt="">
+                    <div class="futured__card-layouts">
+                        <div class="futured__card-text">
+                            <h3>Beautiful Living House.</h3>
+                            <p>Oshawa, ON, Canada</p>
+                        </div>
+                        <div class="futured__card-price">
+                            <p>$1,21000</p>
+                            <img class="futured__card-price-vector" src="imgs/rating.png" alt="">
+                        </div>
+
+                        <div class="futured__card-subtext">
+                            <p>
+                                This the best and beautiful place for living. You can't find another place like this.<br/> The place to start your new good comfortable life at! We provide...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="futured__card-btnfutured">
+                        <svg width="16" height="16" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 21L21 1M21 1H1M21 1V21" stroke="#0C1938" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="futured__button">
+                    <button>Show More Place</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="category" id="category">
+            <div class="category__container container grid">
+                <h2 class="category__title">
+                    Explore The Categories
+                </h2>
+                <p class="category__subtitle">
+                    See our featured properties and explore all of that to know more about our real estate properties very easily.
+                </p>
+
+                <div class="category__layouts">
+                    <div class="category__one">
+                        <div class="category__card">
+                            <div class="category__frames">
+                                <img src="imgs/category1.png" alt="">
+                                <img 
+                                    class="category__frames-main" 
+                                    src="imgs/category2.png" alt=""
+                                >
+                            </div>
+                            <div class="category__control">
+                                <div class="category__control-gruop">
+                                    <h3 class="category__control-title">
+                                        Apartment
+                                    </h3>
+                                    <p class="category__control-subtitle">
+                                        20 Properties
+                                    </p>
+                                </div>
+
+                                <div class="category__btn">
+                                    <svg width="14" height="14" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 21L21 1M21 1H1M21 1V21" stroke="#0C1938" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__two">
+                        <div class="category__card">
+                            <div class="category__frames">
+                                <img src="imgs/category3.png" alt="">
+                                <img 
+                                    class="category__frames-main" 
+                                    src="imgs/category4.png" alt=""
+                                >
+                            </div>
+                            <div class="category__control">
+                                <div class="category__control-gruop">
+                                    <h3 class="category__control-title">
+                                        Apartment
+                                    </h3>
+                                    <p class="category__control-subtitle">
+                                        20 Properties
+                                    </p>
+                                </div>
+
+                                <div class="category__btn">
+                                    <svg width="14" height="14" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 21L21 1M21 1H1M21 1V21" stroke="#0C1938" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category__card">
+                            <div class="category__frames">
+                                <img src="imgs/category5.png" alt="">
+                                <img 
+                                    class="category__frames-main" 
+                                    src="imgs/category6.png" alt=""
+                                >
+                            </div>
+                            <div class="category__control">
+                                <div class="category__control-gruop">
+                                    <h3 class="category__control-title">
+                                        Apartment
+                                    </h3>
+                                    <p class="category__control-subtitle">
+                                        20 Properties
+                                    </p>
+                                </div>
+
+                                <div class="category__btn">
+                                    <svg width="14" height="14" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 21L21 1M21 1H1M21 1V21" stroke="#0C1938" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category__three grid">
+                        <div class="category__card">
+                            <div class="category__frames">
+                                <img src="imgs/category7.png" alt="">
+                                <img 
+                                    class="category__frames-main" 
+                                    src="imgs/category8.png" alt=""
+                                >
+                            </div>
+                            <div class="category__control">
+                                <div class="category__control-gruop">
+                                    <h3 class="category__control-title">
+                                        Apartment
+                                    </h3>
+                                    <p class="category__control-subtitle">
+                                        20 Properties
+                                    </p>
+                                </div>
+
+                                <div class="category__btn">
+                                    <svg width="14" height="14" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 21L21 1M21 1H1M21 1V21" stroke="#0C1938" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="category__button">
+                            <button class="btn-category">Explore All Category</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial section" id="testimonial">
+            <div class="testimonial__container container grid">
+                <div class="testimonial__subtitle">
+                    <h2 class="testimonial__subtitle-heading">
+                        What Clients Say
+                    </h2>
+                    <div class="testimonial__subtitle-text">
+                        Read some valuable feedback from our clients about us <br> and understand what are they saying.
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__user">
+                                    <img src="imgs/user1.png" alt="">
+                                </div>
+
+                                <div class="card__data">
+                                    <p class="card__data-title">“ I found my house through their platform. It is so easy and faster to find real estate with them. They make it so easy and flexible!
+                                    </p>
+
+                                    <p class="card__data-name">Trent Boult</p>
+
+                                    <p class="card__data-job">Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__user">
+                                    <img src="imgs/user2.png" alt="">
+                                </div>
+
+                                <div class="card__data">
+                                    <p class="card__data-title">“ I found my house through their platform. It is so easy and faster to find real estate with them. They make it so easy and flexible!
+                                    </p>
+
+                                    <p class="card__data-name">Sarah Taylor</p>
+
+                                    <p class="card__data-job">Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__user">
+                                    <img src="imgs/user1.png" alt="">
+                                </div>
+
+                                <div class="card__data">
+                                    <p class="card__data-title">“ I found my house through their platform. It is so easy and faster to find real estate with them. They make it so easy and flexible!
+                                    </p>
+
+                                    <p class="card__data-name">Admin Domicile</p>
+
+                                    <p class="card__data-job">Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__user">
+                                    <img src="imgs/user1.png" alt="">
+                                </div>
+
+                                <div class="card__data">
+                                    <p class="card__data-title">“ I found my house through their platform. It is so easy and faster to find real estate with them. They make it so easy and flexible!
+                                    </p>
+
+                                    <p class="card__data-name">Trent Boult</p>
+
+                                    <p class="card__data-job">Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__user">
+                                    <img src="imgs/user2.png" alt="">
+                                </div>
+
+                                <div class="card__data">
+                                    <p class="card__data-title">“ I found my house through their platform. It is so easy and faster to find real estate with them. They make it so easy and flexible!
+                                    </p>
+
+                                    <p class="card__data-name">Sarah Taylor</p>
+
+                                    <p class="card__data-job">Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card__user">
+                                    <img src="imgs/user1.png" alt="">
+                                </div>
+
+                                <div class="card__data">
+                                    <p class="card__data-title">“ I found my house through their platform. It is so easy and faster to find real estate with them. They make it so easy and flexible!
+                                    </p>
+
+                                    <p class="card__data-name">Admin Domicile</p>
+
+                                    <p class="card__data-job">Web Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog heading" id="blog">
+            <div class="blog__container container grid">
+                <div class="blog__card">
+                    <img src="imgs/blog.png" alt="">
+
+                    <div class="blog__card-layout">
+                        <div class="blog__card-group">
+                            <div class="blog__card-time">
+                                <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM8.6 4C8.6 3.66863 8.33137 3.4 8 3.4C7.66863 3.4 7.4 3.66863 7.4 4V8C7.4 8.33137 7.66863 8.6 8 8.6H12C12.3314 8.6 12.6 8.33137 12.6 8C12.6 7.66863 12.3314 7.4 12 7.4H8.6V4Z" fill="#838DA3"/>
+                                </svg>
+    
+                                <span>April 6, 2021</span>
+                            </div>
+    
+                            <div class="blog__card-user">
+                                <svg width="12" height="12" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 8.68555C2.17383 8.68555 -0.713537 12.3593 0.155441 15.9998H11.8446C12.7135 12.3593 9.82617 8.68555 6 8.68555Z" fill="#838DA3"/>
+                                    <circle cx="5.9381" cy="3.2" r="3.2" fill="#838DA3"/>
+                                </svg>
+    
+                                <span>Moshqur Alam</span>
+                            </div>
+                        </div>
+
+                        <h3 class="blog__card-subtext">How to find your suitable home easily and faster.</h3>
+                        <p class="blog__card-text">How to find your suitable home easily and faster. Let's know how you cann find a home easily...</p>
+                    </div>
+                </div>
+
+                <div class="blog__card">
+                    <img src="imgs/blog2.png" alt="">
+
+                    <div class="blog__card-layout">
+                        <div class="blog__card-group">
+                            <div class="blog__card-time">
+                                <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM8.6 4C8.6 3.66863 8.33137 3.4 8 3.4C7.66863 3.4 7.4 3.66863 7.4 4V8C7.4 8.33137 7.66863 8.6 8 8.6H12C12.3314 8.6 12.6 8.33137 12.6 8C12.6 7.66863 12.3314 7.4 12 7.4H8.6V4Z" fill="#838DA3"/>
+                                </svg>
+    
+                                <span>April 6, 2021</span>
+                            </div>
+    
+                            <div class="blog__card-user">
+                                <svg width="12" height="12" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 8.68555C2.17383 8.68555 -0.713537 12.3593 0.155441 15.9998H11.8446C12.7135 12.3593 9.82617 8.68555 6 8.68555Z" fill="#838DA3"/>
+                                    <circle cx="5.9381" cy="3.2" r="3.2" fill="#838DA3"/>
+                                </svg>
+    
+                                <span>Moshqur Alam</span>
+                            </div>
+                        </div>
+
+                        <h3 class="blog__card-subtext">How to find your suitable home easily and faster.</h3>
+                        <p class="blog__card-text">How to find your suitable home easily and faster. Let's know how you cann find a home easily...</p>
+                    </div>
+                </div>
+
+                <div class="blog__card">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" alt="">
+
+                    <div class="blog__card-layout">
+                        <div class="blog__card-group">
+                            <div class="blog__card-time">
+                                <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM8.6 4C8.6 3.66863 8.33137 3.4 8 3.4C7.66863 3.4 7.4 3.66863 7.4 4V8C7.4 8.33137 7.66863 8.6 8 8.6H12C12.3314 8.6 12.6 8.33137 12.6 8C12.6 7.66863 12.3314 7.4 12 7.4H8.6V4Z" fill="#838DA3"/>
+                                </svg>
+    
+                                <span>April 6, 2021</span>
+                            </div>
+    
+                            <div class="blog__card-user">
+                                <svg width="12" height="12" viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 8.68555C2.17383 8.68555 -0.713537 12.3593 0.155441 15.9998H11.8446C12.7135 12.3593 9.82617 8.68555 6 8.68555Z" fill="#838DA3"/>
+                                    <circle cx="5.9381" cy="3.2" r="3.2" fill="#838DA3"/>
+                                </svg>
+    
+                                <span>Moshqur Alam</span>
+                            </div>
+                        </div>
+
+                        <h3 class="blog__card-subtext">How to find your suitable home easily and faster.</h3>
+                        <p class="blog__card-text">How to find your suitable home easily and faster. Let's know how you cann find a home easily...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="cta__container container">
+                <div class="cta__data">
+                    <div class="cta__heading">
+                        Get in Touch With Us
+                    </div>
+                    <p class="cta__text">
+                        Get in touch with us. We are giving the <br> best of services to our clients.
+                    </p>
+
+                    <button class="cta__button">
+                        Get Listed
+                    </button>
+                </div>
+
+                <div class="cta__image">
+                    <img src="imgs/ctaimage.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section-footer">
+        <div class="footer">
+            <div class="footer__layout">
+                <div class="footer__container container grid">
+                    <div class="footer__company">
+                        <p>+0 (123) 456 789</p>
+                        <h4>Domicile.</h4>
+                        <p>Office: 78/2 McLean Park, New York, USA</p>
+                    </div>
+    
+                    <div class="footer__product">
+                        <div>Features</div>
+                        <div>Properties</div>
+                        <div>Category</div>
+                        <div>Contact</div>
+                        <div>About Us</div>
+                        <div>Sign Up</div>
+                    </div>
+    
+                    <div class="footer__media">
+                        <div>Instagram</div>
+                        <div>Made: Webdesign.gdn</div>
+                    </div>
+                </div>
+                <div class="footer__public">
+                    <div class="footer__service container">
+                        <p>© 2022 all rights <br> webdesign.gdn reserved</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
