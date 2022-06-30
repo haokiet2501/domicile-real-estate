@@ -85,7 +85,7 @@ sr.reveal(`.home__images, .home__button, .futured__card, .category__subtitle,
 sr.reveal(`.futured__properties, .futured__card, .futured__button, .blog__card
         `, {
         origin: 'bottom',
-        duration: 800,
+        duration: 600,
         interval: 100
 })
 
