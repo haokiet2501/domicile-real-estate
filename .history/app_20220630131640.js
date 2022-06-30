@@ -69,23 +69,21 @@ window.addEventListener("scroll", scrollUp);
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 1000,
+    duration: 1500,
     delay: 100,
     reset: true
 })
 
-sr.reveal(`.home__data, .category__title, .cta__container, .footer__service, .footer__media`)
+sr.reveal(`.home__data, .category__title, .cta__container, .footer__service`)
 sr.reveal(`.home__images, .home__button, .futured__card, .category__subtitle,
-        .footer__company, .footer__product
+        .footer__company, .footer__product, .footer__media
         `, {
         origin: 'bottom',
-        interval: 100
 })
 
 sr.reveal(`.futured__properties, .futured__card, .futured__button, .blog__card
         `, {
         origin: 'bottom',
-        duration: 800,
         interval: 100
 })
 

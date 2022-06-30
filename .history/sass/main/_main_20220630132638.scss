@@ -450,7 +450,6 @@
             color: var(--white-color);
             font-weight: var(--font-semi-bold);
             font-size: 12px;
-            cursor: pointer;
             transition: .3s ease-out;
 
             &:hover {
@@ -639,7 +638,6 @@
         font-weight: var(--font-semi-bold);
         padding: 10px 20px;
         border-radius: 6px;
-        cursor: pointer;
         transition: .3s ease-out;
 
         &:hover {
@@ -1369,7 +1367,6 @@
             input {
                 background: transparent;
                 margin-left: 8px;
-                color: var(--white-color);
 
             }
             ::placeholder {

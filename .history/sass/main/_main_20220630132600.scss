@@ -213,7 +213,7 @@
             color: var(--color-btn);
             font-weight: var(--font-smaller);
             font-size: var(--small-font-size);
-            cursor: pointer;
+            cu
             transition: .3s ease-out;
 
             &:hover {
@@ -419,7 +419,6 @@
         align-items: center;
         border: 1px solid var(--color-title);
         border-radius: 6px;
-        cursor: pointer;
         padding: 8px;
 
 
@@ -450,7 +449,6 @@
             color: var(--white-color);
             font-weight: var(--font-semi-bold);
             font-size: 12px;
-            cursor: pointer;
             transition: .3s ease-out;
 
             &:hover {
@@ -639,7 +637,6 @@
         font-weight: var(--font-semi-bold);
         padding: 10px 20px;
         border-radius: 6px;
-        cursor: pointer;
         transition: .3s ease-out;
 
         &:hover {
@@ -1369,7 +1366,6 @@
             input {
                 background: transparent;
                 margin-left: 8px;
-                color: var(--white-color);
 
             }
             ::placeholder {

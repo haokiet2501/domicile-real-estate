@@ -74,7 +74,7 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal(`.home__data, .category__title, .cta__container, .footer__service, .footer__media`)
+sr.reveal(`.home__data, .category__title, .cta__container,`)
 sr.reveal(`.home__images, .home__button, .futured__card, .category__subtitle,
         .footer__company, .footer__product
         `, {
