@@ -445,7 +445,7 @@
 
         .btn-category {
             width: 100%;
-            padding: 20px 0;
+            padding: 2rem 0;
             background-color: #1C2135;
             border-radius: 8px;
             color: var(--white-color);
@@ -1442,8 +1442,7 @@
 
         &__button {
             .btn-category {
-                font-size: 1.25rem;
-                padding: 2rem 0;
+                font-size: var(--mb-1);
             }
         }
     }
@@ -1486,11 +1485,6 @@
             }
         }
 
-        &__button {
-            button {
-                padding: 1rem 1.5rem;
-            }
-        }
     }
 
     .category {

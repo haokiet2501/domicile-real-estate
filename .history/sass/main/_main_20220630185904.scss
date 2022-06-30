@@ -358,7 +358,7 @@
     &__layouts {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap
     }
 
     &__card {
@@ -1442,8 +1442,7 @@
 
         &__button {
             .btn-category {
-                font-size: 1.25rem;
-                padding: 2rem 0;
+                font-size: var(--mb-1);
             }
         }
     }
@@ -1486,11 +1485,6 @@
             }
         }
 
-        &__button {
-            button {
-                padding: 1rem 1.5rem;
-            }
-        }
     }
 
     .category {

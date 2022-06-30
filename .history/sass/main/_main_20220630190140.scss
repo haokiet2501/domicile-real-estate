@@ -1442,7 +1442,7 @@
 
         &__button {
             .btn-category {
-                font-size: 1.25rem;
+                font-size: 16px;
                 padding: 2rem 0;
             }
         }
@@ -1486,11 +1486,6 @@
             }
         }
 
-        &__button {
-            button {
-                padding: 1rem 1.5rem;
-            }
-        }
     }
 
     .category {
